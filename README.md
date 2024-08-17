@@ -3,7 +3,7 @@ Sabanci University Vue JS Word Game
 
 ## Project setup
 ```
-npm install
+npm install --force
 ```
 
 ### Compiles and hot-reloads for development

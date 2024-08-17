@@ -1,5 +1,8 @@
 publicPath: process.env.NODE_ENV === 'production'
 module.exports = {
   lintOnSave: false,
-  publicPath: process.env.NODE_ENV === 'production' ? '/it537vue/' : '/'
+  devServer: { 
+    port: 3001,
+  }, 
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/WordGame/'
 };
