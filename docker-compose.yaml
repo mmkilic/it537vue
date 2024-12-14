@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  s_word_game:
+    build: .
+    image: word_game
+    container_name: c_word_game
+    restart: always
+    network:
+      - app
+    ports:
+      - 10000:80
+
+networks:
+  app:
+    name: app
+    driver: bridge
