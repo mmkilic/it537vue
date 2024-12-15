@@ -2,6 +2,6 @@ module.exports = {
   lintOnSave: false,
   devServer: { 
     port: 3001,
-  }, 
-  publicPath: '/'
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? '/word-game/' : '/'
 };

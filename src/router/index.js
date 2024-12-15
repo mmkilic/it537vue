@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Exam from '../views/Exam.vue'
+import { publicPath } from '/vue.config'
 
 Vue.use(VueRouter)
 
@@ -27,9 +28,10 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  routes,
   mode: 'history',
-  linkActiveClass: "active"
+  linkActiveClass: "active",
+  base: publicPath,
+  routes
 })
 
 export default router
