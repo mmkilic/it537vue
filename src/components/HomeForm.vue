@@ -24,7 +24,7 @@
           <b-button type="submit" variant="primary">Start</b-button>
           <b-button type="reset" variant="danger">Reset</b-button>
         </b-form>
-        <b-card class="mt-3" header="Form Data Result" v-if="show">
+        <b-card class="mt-3" header="Form Data Result" v-if=false>
           <pre class="m-0">{{ form }}</pre>
         </b-card>
       </div>
