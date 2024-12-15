@@ -3,5 +3,5 @@ module.exports = {
   devServer: { 
     port: 3001,
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/word-game/' : '/word-game/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
 };
