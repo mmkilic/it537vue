@@ -7,4 +7,4 @@ services:
     container_name: c_word_game
     restart: always
     ports:
-      - 10000:80
+      - 10001:80
